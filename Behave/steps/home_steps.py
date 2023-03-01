@@ -24,7 +24,7 @@ def step_impl(context):
     home_screen.tap_element(*home_screen.menu_side)
 
 
-@Then('We tap on first product')
+@When('We tap on first product')
 def step_impl(context):
     home_screen = HomeScreen(context)
     home_screen.tap_element(*home_screen.first_product)
