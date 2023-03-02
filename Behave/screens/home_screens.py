@@ -9,5 +9,5 @@ class HomeScreen(CommonActions):
                                        "header']/android.widget.TextView")
         self.menu_side = (By.ACCESSIBILITY_ID, 'open menu')
         self.first_product = (By.XPATH, "(//android.view.ViewGroup[@content-desc='store item'])[1]")
-
+        self.btn_sort = (By.ACCESSIBILITY_ID, "sort button")
 

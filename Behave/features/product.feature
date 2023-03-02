@@ -1,18 +1,18 @@
 Feature: Home Screen
 
   Background:
-    Given We are in the Home Page
-    When We tap on first product
+    Given we are in the Home Page
+    When we tap on first product
 
 
   @e2e
-  Scenario: validate_product_price
-    Then We see the Product's price
-    And We see the Product's name
+  Scenario Outline: validate_product_price_and_name
+    Then we see the Products name "<name>"
+    And we see the Products price "<price>"
+    Examples:
+      | name                | price  |
+      | Sauce Labs Backpack | $29.99 |
 
 
 
-  @e2e
-  Scenario: validate_add_to_cart
-    When We tap on Add To Cart
-    Then We see a number one on the Cart
+
