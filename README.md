@@ -74,7 +74,7 @@ Para instalar lo indicado en el archivo requirements, será necesario ejecutar e
 ##APK
 El apk utilizado para la creación de los casos de prueba se localiza en la carpeta `App`.
 ##Capabilities 
-Para  este proyecto se utilizo un emulador Pixel XL con android 11, en caso de requerir cambiar las capabilities estás se tendrán que editar en el `conftest.py`  del proyecto:
+Para  este proyecto se utilizo un emulador Pixel XL con android 11, en caso de requerir cambiar las capabilities estás se tendrán que editar en el `environment.py`  del proyecto:
 ```bash
 {
     "platformName": "Android",

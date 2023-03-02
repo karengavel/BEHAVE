@@ -13,7 +13,7 @@ def desired_caps_setup(context):
         "appium:platformVersion": "11",
         "appium:deviceName": "PixelXL",
         "appium:automationName": "UiAutomator2",
-        "appium:app": "/Users/agamav/Desktop/saucedemo.apk"
+        "appium:app": "ruta de ubicacion app"
     }
 
 
