@@ -7,7 +7,7 @@ Feature: Checkout
     And we see a number one on the Cart
 
 
-  @e2e
+  @regression
     Scenario: validate_check_out
       When we tap on the Cart
       And we tap on proceed to checkout

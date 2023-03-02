@@ -5,7 +5,8 @@ Feature: Home Screen
     When we tap on first product
 
 
-  @e2e
+  @smoke
+    @regression
   Scenario Outline: validate_product_price_and_name
     Then we see the Products name "<name>"
     And we see the Products price "<price>"

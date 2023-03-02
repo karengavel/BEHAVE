@@ -3,7 +3,8 @@ Feature: Cart Screen
   Background:
     Given we are in the Home Page
 
-  @e2e
+  @smoke
+    @regression
   Scenario Outline: validate_add_to_cart
     When we tap on first product
     And we tap on Add To Cart

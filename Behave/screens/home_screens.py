@@ -10,4 +10,6 @@ class HomeScreen(CommonActions):
         self.menu_side = (By.ACCESSIBILITY_ID, 'open menu')
         self.first_product = (By.XPATH, "(//android.view.ViewGroup[@content-desc='store item'])[1]")
         self.btn_sort = (By.ACCESSIBILITY_ID, "sort button")
+        self.lbl_price_first_product = (By.ANDROID_UIAUTOMATOR, ".text(\"$7.99\")")
+        self.lbl_price_last_product = (By.ANDROID_UIAUTOMATOR, ".text(\"$49.99\")")
 

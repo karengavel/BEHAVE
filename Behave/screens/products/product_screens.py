@@ -10,5 +10,3 @@ class ProductScreen(CommonActions):
         self.btn_add_cart = (By.ACCESSIBILITY_ID, "Add To Cart button")
         self.lbl_number_cart = (By.ANDROID_UIAUTOMATOR, ".text(\"1\")")
         self.btn_cart = (By.ACCESSIBILITY_ID, "cart badge")
-        self.lbl_price_first_product = (By.ANDROID_UIAUTOMATOR, ".text(\"$7.99\")")
-        self.lbl_price_last_product = (By.ANDROID_UIAUTOMATOR, ".text(\"$49.99\")")
