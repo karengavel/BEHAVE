@@ -1,7 +1,7 @@
 import time
 
 from behave import *
-from screens.home_screens import HomeScreen
+from screens.home_screen import HomeScreen
 from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.action_chains import ActionChains
 
@@ -40,6 +40,7 @@ def step_impl(context):
 
 @Then('we see the products in asc order')
 def step_impl(context):
+    time.sleep(2.4)
     home_screen = HomeScreen(context)
     first_product = home_screen.find_element(*home_screen.lbl_price_first_product).text
     home_screen.driver.swipe(150, 400, 150, -800, 1000)

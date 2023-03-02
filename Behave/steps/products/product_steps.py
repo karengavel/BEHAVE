@@ -1,6 +1,6 @@
 from behave import *
-from screens.products.product_screens import ProductScreen
-from utils.dictionaries.product_screen_text import PRODUCT_TEXT
+from screens.products.product_screen import ProductScreen
+from utils.dictionaries.product_screen_texts import PRODUCT_TEXT
 
 
 @Then('we see the Products price "{price}"')

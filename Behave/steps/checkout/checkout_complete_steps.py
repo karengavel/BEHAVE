@@ -1,5 +1,5 @@
 from behave import *
-from screens.checkout.checkout_complete_screens import CheckoutComplete
+from screens.checkout.checkout_complete_screen import CheckoutComplete
 
 
 @Then('we see the checkout complete')

@@ -1,5 +1,5 @@
 from behave import *
-from screens.cart.cart_screens import CartScreen
+from screens.cart.cart_screen import CartScreen
 
 
 @Then('we validate products name "{name_product}"')

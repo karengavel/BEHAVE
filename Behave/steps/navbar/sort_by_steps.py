@@ -1,5 +1,5 @@
 from behave import *
-from screens.navbar.sort_screen import SortScreen
+from screens.navbar.sort_screens import SortScreen
 
 
 @When('we select price asc option')

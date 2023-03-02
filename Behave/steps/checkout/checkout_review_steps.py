@@ -1,5 +1,5 @@
 from behave import *
-from screens.checkout.checkout_review_screens import CheckoutReview
+from screens.checkout.checkout_review_screen import CheckoutReview
 
 
 @When('we tap on place order')
